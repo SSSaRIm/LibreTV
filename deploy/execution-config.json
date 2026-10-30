@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "build": {
+    "runtime_key": "nodejs20",
+    "build_script": "build.sh",
+    "output_dir": "dist",
+    "timeout_seconds": 3600
+  },
+  "runtime": {
+    "runtime_key": "nodejs20",
+    "start_script": "run.sh",
+    "port": 8080
+  }
+}
